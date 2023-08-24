@@ -55,6 +55,8 @@ input {
     background-color: rgb(249, 249, 249);
     border: none;
     outline: none;
+    cursor: pointer;
+    caret-color: transparent;
 }
 
 #box1, #box3, #box4, #box6 {

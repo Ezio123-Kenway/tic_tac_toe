@@ -22,8 +22,8 @@ const updateStartAndResetBtn = () => {
 
 const startGame = () => {
     inputArray.forEach(item => {
-        item.removeEventListener('focus', inputFocus)  // Remove existing listener, if any
-        item.addEventListener('focus', inputFocus)  // Add a new listener
+        // item.removeEventListener('click', inputFocus)  // Remove existing listener, if any
+        item.addEventListener('click', inputFocus)  // Add a new listener
     });
 }
 
