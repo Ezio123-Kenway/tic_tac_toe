@@ -1,0 +1,112 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1, p {
+    text-align: center;
+}
+
+h1 {
+    color: red;
+}
+
+p {
+    font-size: 16px;
+    color: rgb(0, 167, 233);
+}
+
+span {
+    font-weight: bold;
+}
+
+.mainContainer {
+    background-color: white;
+    max-width: 510px;
+    height: 500px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.gameContainer {
+    margin: 30px auto 60px auto;
+    width: 288px;
+    height: auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+input {
+    display: block;
+    width: 96px;
+    height: 96px;
+    text-align: center;
+    font-size: 23px;
+    user-select: none;
+    background-color: rgb(249, 249, 249);
+    border: none;
+    outline: none;
+}
+
+#box1, #box3, #box4, #box6 {
+    border-bottom: 1px solid black;
+}
+
+#box2, #box5 {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#box8 {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.reset, .start {
+    display: block;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 0 auto;
+    border: 1px solid #00c3ff;
+    user-select: none;
+    background-color: white;
+    font-size: 19px;
+    cursor: pointer;
+    color: #00c3ff;
+}
+
+.winnerStatus {
+    margin-top: 60px;
+    color: #4399B4;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.description {
+    margin: 15px 0px;
+}
+
+.coloredValue {
+    color: red;
+}
+
+.reset {
+    display: none;
+}
+
+.playerStatus {
+    color: #4399B4;
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: bold;
+}
